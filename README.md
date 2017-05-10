@@ -15,10 +15,9 @@ Today we use cryptography in almost everywhere. From surfing the web over https,
 ## Setup Instructions
 You need to have [pip](https://packaging.python.org/) installed. Optinally you can use [virtualenv](https://packaging.python.org/installing/#creating-virtual-environments) for an isolated installation of libraries instead of globally.
 
-```
+```bash
   $ pip3 install jupyter
   $ pip3 install cryptography
-
 ```
 
 Alternatively, if you have the conda package manager, you can run:
