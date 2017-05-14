@@ -24,6 +24,6 @@ Alternatively, if you have the conda package manager, you can run:
 
 ```bash
 $ conda create -n crypto python=3.6 jupyter cryptography
-$ source activate cryptography
+$ source activate crypto
 $ jupyter notebook  
 ```
