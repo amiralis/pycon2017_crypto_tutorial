@@ -27,3 +27,12 @@ $ conda create -n crypto python=3.6 jupyter cryptography
 $ source activate crypto
 $ jupyter notebook  
 ```
+## Docker Image
+You can also use the following commands to run a dockerized version of this tutorial.
+
+```bash
+  $ docker build -t NAME .
+  $ docker run -p 8888:8888 NAME
+```
+
+Replace NAME with a name for this docker image (e.g., crypto)
